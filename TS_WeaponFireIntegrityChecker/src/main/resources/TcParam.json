@@ -1,6 +1,6 @@
 {
   "federationName" : "IVCT_Federation",
-  "rtiHostName" : "192.168.48.17",
+  "rtiHostName" : "127.0.0.1",
   "rtiPort" : "8989",
   "sutFederateName" : "WeaponFireAgent",
   "thresholds": {
