@@ -1,0 +1,17 @@
+{
+	"id" 			: 	"TS_DisWeaponFireIntegrityChecker",
+	"version"		:	"1.0.1",
+	"name" 			: 	"TS_DisWeaponFireIntegrityChecker",
+	"description"	:	"This is a test to verify the integrity of weapon fires injected in the federation by a SUT.",
+	"graphics"		:	"/some/icon.png",
+	"tsRunTimeFolder": "TS_DisWeaponFireIntegrityChecker-1.0.1/bin",
+	"tsLibTimeFolder": "TS_DisWeaponFireIntegrityChecker-1.0.1/lib",
+    "dependency"	:	[],
+	"requirements"	:	[
+		{
+			"id"			:	"DisWeaponFireIntegrityCheckerTC_0001",
+			"description"	:	"Dis Weapon Fire Integrity Tester for identity match",
+			"TC"			:	"ca.drdc.ivct.tc_wf_integritycheck.DisWeaponFireIntegrityTC_0001"
+		}
+	]
+}

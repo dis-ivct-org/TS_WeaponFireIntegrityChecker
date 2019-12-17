@@ -1,0 +1,19 @@
+{
+  "federationName": "IVCT_DIS_Federation",
+  "sutHostName": "192.168.48.27",
+  "sutPort": "3001",
+  "listeningPort": "3001",
+  "thresholds": {
+    "worldLocation": 0.001,
+    "orientation": 0.0001,
+    "velocity": 0.001,
+    "acceleration": 0.001,
+    "angularVelocity": 0.0001
+  },
+  "waitingPeriod": 10,
+  "fadFiles": [
+    {
+      "fileName": "$(IVCT_SUT_HOME_ID)/DisWeaponFireSut/TS_DisWeaponFireIntegrityChecker/resources/testcases/weaponfire_simple_tc.csv"
+    }
+  ]
+}

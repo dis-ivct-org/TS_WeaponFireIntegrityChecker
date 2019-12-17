@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'application'
+}
+
+mainClassName = 'ca.drdc.ivct.tc_wf_integritycheck.TS_DisWeaponFireIntegrityTC_0001'
+
+dependencies {
+
+    compile files ("/opt/openDis/open-dis_4.16.jar")
+    compile files ("/opt/openDis/dis-enums_1.1.jar")
+
+    compile     libraries.jsonSimple
+
+    compile     libraries.grim_rpr_fom
+    compileOnly libraries.tc_lib
+
+    compile        group: 'io.github.ivctool', name: 'IVCT_DIS_plugin', version: "${modelEncoderVersion}"
+    compileOnly    group: 'io.github.ivctool', name: 'MessagingHelpers', version: "${ivctVersion}"
+}
+

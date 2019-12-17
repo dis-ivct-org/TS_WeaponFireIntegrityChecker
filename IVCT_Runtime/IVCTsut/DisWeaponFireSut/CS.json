@@ -1,0 +1,11 @@
+{
+	"id" 			: 	"DisWeaponFireSut",
+	"name"			:	"DisWeaponFireSut",
+	"description"	:	"DisWeaponFireSut system for DIS IVCT",
+	"vendor"		:	"OODA Technologies / DRDC Atlantics",
+	"badge"			:	["TS_DisWeaponFireIntegrityChecker"],
+	"settingsDesignator": "",
+	"sutFederateName": "DisWeaponFireSut",
+	"federationName": "IVCT_DIS_Federation",
+	"version": "0.1"
+}
